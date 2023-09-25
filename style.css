@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 215px;
+    padding-top: 2%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 35px;
+    font-size: 20px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* nav tittle */
+.nav-tittle {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.nav-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    color: white;
+    border: 0;
+    background-color: #FD6E0A;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 7px;
+
+}
+
+/* Frist Banner div */
+.baner {
+    display: flex;
+    align-items: center;
+    margin: 52px 215px;
+    justify-content: space-between;
+
+
+
+
+}
+.baner-tittle{
+    width: 100%;
+}
+
+.banner-h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: open sans;
+    word-wrap: break-word;
+}
+
+.banner-h1 {
+    color: #181818;
+    font-size: 85px;
+    font-family: Open Sans;
+    font-weight: 800;
+    /* word-wrap: break-word; */
+}
+
+.banner-paragraph {
+    color: #757575;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: open sans;
+    /* word-wrap: break-word; */
+}
+
+.banner-cv {
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    width: 200px;
+    height: 64px;
+    color: white;
+    font-size: 24px;
+
+
+}
+
+.banner-cv a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.baner img{
+    /* margin-left: 55%; */
+    margin-right: -10%;
+
+
+}
+
+/* banner-call */
+.banner-call {
+    border: 2px solid #FD6E0A;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    width: 700;
+    color: #FD6E0A;
+    margin-left: 30px;
+}
+/* banner-image */
+
+header {
+    background: white;
+    background-image:url(./images/header_bg.png)  ,url(./images/developer.png);
+
+    background-repeat: no-repeat;
+    background-position:bottom right,left ;
+    background-color: #FFF8F3;
+}
+
+/* second-Part */
+.second-part{
+    background-color: #FFF8F3;
+    width: 1140px;
+    height:550px;
+   justify-content: center;
+}
+
+/* Main-part */
+.main-part{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+.about-me{
+    background-color: #FFF8F3;
+    text-align: center;
+    height: 550px;
+    margin-top: 130px;
+
+}
+.about-tittle{
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-desprition{
+    padding-top: 30px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+.about-info{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.name p ,.email p ,.date p,.form p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+
+}
+.name h4,.email h4, .date h4, .form h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    line-height: 30px;
+}
+.experience{
+    text-align: center;
+}
+/* item start */
+.item{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.itembar{
+    background-color: whitesmoke;
+    height: 370px;
+    width: 260px;
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.itembar p{
+    text-align: justify;
+}
+
+.summary{
+    margin-top: 131px;
+    margin-bottom: 114px;
+}
+.summary-tittle{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.biodata{
+    display: flex;
+    justify-content: center;
+}
+.biodatas{
+    margin-right: 20px;
+}
+.data{
+    padding-bottom: 30px;
+}
+.tittle1{
+    color: #474747;
+    font-size: 40px;
+    font-weight: 700;
+}
+.tittle2{
+    color: #474747;
+    font-size: 27px;
+    font-weight: 700;
+
+}
+.tittle3{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.last-button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+.last-part{
+    background-color: #FFF8F3;
+}
+
+.one{
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 130px;
+}
+.two h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.two p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.icon{
+    margin-top: 30px;
+    display: flex;
+    gap: 13px;
+}
+.three h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.three input{
+    border: none;
+    width: 461px;
+    height: 64px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 7px;
+}
+#msg{
+    height: 181px;
+
+}
+.three{
+    padding-bottom: 220px;
+}
